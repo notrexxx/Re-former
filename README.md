@@ -4,7 +4,7 @@
 
 # Project: Forms and Helpers
 
-This project provides a understanding of the moethods used to create forms on rails
+This project provides a understanding of the methods used to create forms on rails
 
 
 # Built With
