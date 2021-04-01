@@ -6,7 +6,6 @@
 
 This project provides a understanding of the methods used to create forms on rails
 
-
 # Built With
 
 - Ruby on Rails
