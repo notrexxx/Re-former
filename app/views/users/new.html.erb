@@ -1,13 +1,14 @@
 
-<h1>Bare Metal Form</h1>
+<h1>Create new user</h1>
 <%= form_with model: @user do |form| %>
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
-  <%= form.label :username %>
-  <%= form.text_field :username %>
-  <%= form.label :email %>
-  <%= form.email_field :email%>
-  <%= form.label :password %>
-  <%= form.password_field :password  %>
-  <%= form.submit "#{'submit'}".upcase  %>
+    
+    <%= form.label :username %>
+    <%= form.text_field :username, placeholder: "Enter your username", class:"placeholder" %>
+    <%= form.label :email %>
+    <%= form.email_field :email, placeholder: "Enter your email address", class:"placeholder" %>
+    <%= form.label :password %>
+    <%= form.password_field :password, placeholder: "Enter your password", class:"placeholder" %>
+    <%= form.submit 'Submit' %>
 <% end %>
