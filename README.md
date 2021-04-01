@@ -16,7 +16,7 @@ This project provides a understanding of the methods used to create forms on rai
 
 # Getting Started
 
-- Run this command in your OS terminal: `git clone https://github.com/notrexxx/Re-former.git` to get a copy of the project.
+- Run this command in your OS terminal: `git clone https://github.com/notrexxx/Re-former.git` to get a copy of the project. 
 
 # Usage
 To run the application please:
