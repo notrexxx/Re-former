@@ -46,10 +46,10 @@ and press ENTER
 - Go to http://127.0.0.1:3000/
 
 - Create users using the forms
-- Edit users by navigating to http://127.0.0.1:3000/users/ "the ID of the user", for example:
+- Edit users by navigating to http://127.0.0.1:3000/users/"the ID of the user"/edit, for example:
 
 ```
-http://127.0.0.1:3000/users/1
+http://127.0.0.1:3000/users/1/edit
 ```
 
 - Run IRB Rails console
